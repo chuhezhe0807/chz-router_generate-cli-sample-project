@@ -1,0 +1,16 @@
+{
+  "name": "mgr-organization-two",
+  "component": "@/layout/basic-empty-route.vue",
+  "exclude": [],
+  "list": [
+    {
+      "name": "mgr-two-children",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "管理端组织机构二-子路由",
+        "requireAuth": true
+      },
+      "identities": ["sys"]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "entry": "./src/views",
+  "alias": "@/views",
+  "output": "./router-list.js",
+  "identities": ["sys", "teacher", "student"],
+  "emptyRoutePath": "@/layout/basic-empty-route.vue"
+}

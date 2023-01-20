@@ -1,0 +1,43 @@
+{
+  "name": "mgr-organization-one",
+  "component": "@/layout/basic-sub-aside.vue",
+  "exclude": [""],
+  "list": [
+    {
+      "name": "sub-aside-one",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "侧边栏一",
+        "requireAuth": true
+      },
+      "identities": ["sys"]
+    },
+    {
+      "name": "sub-aside-two",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "侧边栏二",
+        "requireAuth": true
+      },
+      "identities": ["sys"]
+    },
+    {
+      "name": "sub-aside-three",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "侧边栏三",
+        "requireAuth": true
+      },
+      "identities": ["sys"]
+    },
+    {
+      "name": "sub-aside-four",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "侧边栏四",
+        "requireAuth": true
+      },
+      "identities": ["sys"]
+    }
+  ]
+}

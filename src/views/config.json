@@ -1,0 +1,61 @@
+{
+  "name": "@/",
+  "component": "@/layout/basic-first-header.vue",
+  "exclude": ["mgr-organization-two", "user-student-one"],
+  "list": [
+    {
+      "name": "mgr-organization-one",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "管理端组织机构一",
+        "requireAuth": false
+      },
+      "identities": ["sys"]
+    },
+    {
+      "name": "mgr-organization-two",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "管理端组织机构二",
+        "requireAuth": true
+      },
+      "identities": ["sys"]
+    },
+    {
+      "name": "user-teacher-one",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "用户端教师一",
+        "requireAuth": true
+      },
+      "identities": ["sys", "teacher"]
+    },
+    {
+      "name": "user-teacher-two",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "用户端教师二",
+        "requireAuth": true
+      },
+      "identities": ["sys", "teacher"]
+    },
+    {
+      "name": "user-student-one",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "用户端学生一",
+        "requireAuth": true
+      },
+      "identities": ["sys", "student"]
+    },
+    {
+      "name": "user-student-two",
+      "meta": {
+        "icon": "iconfont xx-question",
+        "title": "用户端学生二",
+        "requireAuth": true
+      },
+      "identities": ["sys", "student"]
+    }
+  ]
+}
