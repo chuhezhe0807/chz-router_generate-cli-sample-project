@@ -1,5 +1,5 @@
 {
-  "name": "@/",
+  "name": "home-component",
   "component": "@/layout/basic-first-header.vue",
   "exclude": ["mgr-organization-two", "user-student-one"],
   "list": [
@@ -10,7 +10,8 @@
         "title": "管理端组织机构一",
         "requireAuth": false
       },
-      "identities": ["sys"]
+      "identities": ["sys"],
+      "platform": "classes"
     },
     {
       "name": "mgr-organization-two",
@@ -19,8 +20,18 @@
         "title": "管理端组织机构二",
         "requireAuth": true
       },
-      "identities": ["sys"]
+      "identities": ["sys"],
+      "platform": "organization"
     },
+    {
+        "name": "mgr-organization-three",
+        "meta": {
+          "icon": "iconfont xx-question",
+          "title": "管理端组织机构三",
+          "requireAuth": true
+        },
+        "identities": ["sys"]
+      },
     {
       "name": "user-teacher-one",
       "meta": {
@@ -28,7 +39,8 @@
         "title": "用户端教师一",
         "requireAuth": true
       },
-      "identities": ["sys", "teacher"]
+      "identities": ["teacher"],
+      "platform": "teaching"
     },
     {
       "name": "user-teacher-two",
@@ -37,7 +49,8 @@
         "title": "用户端教师二",
         "requireAuth": true
       },
-      "identities": ["sys", "teacher"]
+      "identities": ["sys", "teacher"],
+      "platform": "arrangement"
     },
     {
       "name": "user-student-one",
@@ -46,7 +59,8 @@
         "title": "用户端学生一",
         "requireAuth": true
       },
-      "identities": ["sys", "student"]
+      "identities": ["student"],
+      "platform": "studying"
     },
     {
       "name": "user-student-two",

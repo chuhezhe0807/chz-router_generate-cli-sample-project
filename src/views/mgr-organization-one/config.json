@@ -1,7 +1,7 @@
 {
-  "name": "mgr-organization-one",
+  "name": "mgr-organization-one-father",
   "component": "@/layout/basic-sub-aside.vue",
-  "exclude": [""],
+  "exclude": ["sub-aside-two"],
   "list": [
     {
       "name": "sub-aside-one",

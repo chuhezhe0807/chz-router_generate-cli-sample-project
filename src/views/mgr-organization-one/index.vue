@@ -1,16 +1,17 @@
 <template>
-  <div>
-    mgr-organization-one
-  </div>
+    <div style="height: 100%">
+        mgr-organization-one
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
 export default {
-  setup () {
-    
+    setup() {
 
-    return {}
-  }
+
+        return {}
+    }
 }
 </script>
 

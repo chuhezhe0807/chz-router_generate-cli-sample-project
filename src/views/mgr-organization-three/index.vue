@@ -1,7 +1,6 @@
 <template>
     <div>
-        mgr-organization-two
-        <router-view></router-view>
+        mgr-organization-three
     </div>
 </template>
 

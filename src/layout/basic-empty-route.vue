@@ -1,17 +1,17 @@
 <template>
-  <div>
-    woshiempty
-    <router-view></router-view>
-  </div>
+    <div>
+        我是empty
+        <router-view></router-view>
+    </div>
 </template>
 
 <script lang="ts">
 export default {
-  setup () {
-    
+    setup() {
 
-    return {}
-  }
+
+        return {}
+    }
 }
 </script>
 
