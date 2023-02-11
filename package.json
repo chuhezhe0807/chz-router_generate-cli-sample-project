@@ -10,12 +10,14 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "chz-router_generate-cli": "^1.0.0",
     "element-plus": "^2.2.27",
     "element-ui": "^2.15.12",
     "node-sass": "6.0.1",
     "pinia": "^2.0.28",
     "sass": "^1.57.0",
     "sass-loader": "10.2.1",
+    "treer": "^1.0.4",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
